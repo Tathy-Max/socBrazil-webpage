@@ -5,15 +5,17 @@ module.exports = {
     extend: {
       colors: {
         // "gray-20": "#F8F4EB",
-        "gray-20": "#001A2C",
+        "gray-20": "#001A2C", //page's background-color
         "gray-50": "#EFE6E6",
         "gray-100": "#DFCCCC",
-        "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
+        "gray-500": "#576AEC", //default page's text color
+        // "gray-500": "#004385",
+        // "gray-500": "#3395FF",
+        "primary-100": "#004385", //mobile menu toggled color
+        "primary-300": "#2bd9fe", //hover color
+        "primary-500": "#0197f6", // "Home" link color + button hover color
         "secondary-400": "#FFCD58",
-        "secondary-500": "#FFC132",
+        "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({
         "gradient-blueyellowred":
