@@ -4,3 +4,8 @@ export enum SelectedPage {
   Blog = "blog",
   Eventos = "eventos",
 }
+export interface CanaisType {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+}

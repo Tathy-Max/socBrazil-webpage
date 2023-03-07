@@ -5,7 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 // import LogoNova from "@/assets/socLogoNew.png";
 import HomePageText from "@/assets/homePageText.png";
-import HomePageGraphic from "@/assets/padlock.png";
+import HomePageGraphic from "@/assets/socLogoNew.png";
 import LogoDataSec from "@/assets/logoDataSec.png";
 import LogoSans from "@/assets/logoSans.png";
 import LogoSocCloud from "@/assets/logoSocCloud.png";
