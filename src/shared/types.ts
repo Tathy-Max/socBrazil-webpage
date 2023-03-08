@@ -9,3 +9,8 @@ export interface CanaisType {
   title: string;
   description: string;
 }
+export interface BlogType {
+  name: string;
+  description?: string;
+  image: string;
+}

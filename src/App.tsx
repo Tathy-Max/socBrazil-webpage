@@ -1,6 +1,7 @@
 import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home";
 import Canal from "@/scenes/canais";
+import Blog from "@/scenes/blog";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
 
@@ -31,6 +32,7 @@ function App() {
       />
       <Home setSelectedPage={setSelectedPage} />
       <Canal setSelectedPage={setSelectedPage} />
+      <Blog setSelectedPage={setSelectedPage} />
     </div>
   );
 }
