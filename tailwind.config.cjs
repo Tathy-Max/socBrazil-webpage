@@ -11,7 +11,8 @@ module.exports = {
         "gray-500": "#576AEC", //default page's text color
         // "gray-500 or primary-100": "#004385",
         // "gray-500": "#3395FF",
-        "primary-100": "#001d3d", //mobile menu toggled color
+        // "primary-100": "#001d3d",
+        "primary-100": "#012a4a", //mobile menu toggled color
         "primary-300": "#2bd9fe", //hover color
         "primary-500": "#0197f6", // "Home" link color + button hover color
         "secondary-400": "#FFCD58",

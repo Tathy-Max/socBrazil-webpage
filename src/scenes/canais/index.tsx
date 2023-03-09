@@ -1,34 +1,47 @@
 import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
 import { CanaisType, SelectedPage } from "@/shared/types";
-import {
-  HomeModernIcon,
-  UserGroupIcon,
-  AcademicCapIcon,
-} from "@heroicons/react/24/solid";
+// import {
+//   HomeModernIcon,
+//   UserGroupIcon,
+//   AcademicCapIcon,
+// } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import CanaisPageGraphic from "@/assets/CanaisPageGraphic.png";
 import Canal from "./Canal";
 
 const canais: Array<CanaisType> = [
   {
+    title: "LinkedIn SOCBrazil",
     icon: (
-      <>
-        <iframe src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/122682" />
-      </>
+      <iframe
+        src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/122682"
+        width="100%"
+        height="500"
+      ></iframe>
     ),
   },
   {
-    icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "LinkedIn SOCBrazil",
-    description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+    icon: (
+      <iframe
+        src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/122894"
+        width="853"
+        height="600"
+        allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope;"
+        allowFullScreen
+        title="youTubeChannel"
+      ></iframe>
+    ),
+    title: "YouTube SOCBrazil",
   },
   {
-    icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Instagram SOCBrazil",
-    description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+    icon: (
+      <iframe
+        src="https://widgets.sociablekit.com/youtube-playlists/iframe/122906"
+        width="100%"
+        height="500"
+      ></iframe>
+    ),
   },
 ];
 
@@ -69,7 +82,7 @@ const Canais = ({ setSelectedPage }: Props) => {
 
         {/* CANAIS */}
         <motion.div
-          className="mt-5 items-center justify-between gap-8 md:flex"
+          className="items-center justify-between gap-8 md:flex"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -78,9 +91,9 @@ const Canais = ({ setSelectedPage }: Props) => {
           {canais.map((canais: CanaisType) => (
             <Canal
               key={canais.title}
-              icon={canais.icon}
               title={canais.title}
-              description={canais.description}
+              icon={canais.icon}
+              // description={canais.description}
               setSelectedPage={setSelectedPage}
             />
           ))}

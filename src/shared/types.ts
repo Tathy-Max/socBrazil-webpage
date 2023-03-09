@@ -6,9 +6,9 @@ export enum SelectedPage {
   FaleConosco = "faleconosco",
 }
 export interface CanaisType {
-  icon: JSX.Element;
   title?: string;
-  description?: string;
+  icon: JSX.Element;
+  // description?: string;
 }
 export interface BlogType {
   name: string;
