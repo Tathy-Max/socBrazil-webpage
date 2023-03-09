@@ -1,13 +1,14 @@
 import { SelectedPage, BlogType } from "@/shared/types";
 import image1 from "@/assets/image1.png";
-import image2 from "@/assets/image2.png";
-import image3 from "@/assets/image3.png";
+// import image2 from "@/assets/image2.png";
+// import image3 from "@/assets/image3.png";
 import image4 from "@/assets/image4.png";
-import image5 from "@/assets/image5.png";
-import image6 from "@/assets/image6.png";
+// import image5 from "@/assets/image5.png";
+// import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import Blog from "./Blog";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const news: Array<BlogType> = [
   {
@@ -18,13 +19,13 @@ const news: Array<BlogType> = [
   },
   {
     name: "SANS NEWS",
-    image: image2,
+    image: image4,
   },
   {
     name: "DATASEC NEWS",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image3,
+    image: image1,
   },
   {
     name: "SOC WORLDWIDE",
@@ -34,13 +35,13 @@ const news: Array<BlogType> = [
   },
   {
     name: "BLABLABLA",
-    image: image5,
+    image: image1,
   },
   {
     name: "SOC XYZ",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image6,
+    image: image4,
   },
 ];
 

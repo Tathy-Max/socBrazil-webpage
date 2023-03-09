@@ -2,6 +2,8 @@ import Navbar from "@/scenes/navbar";
 import Home from "@/scenes/home";
 import Canal from "@/scenes/canais";
 import Blog from "@/scenes/blog";
+import FaleConosco from "@/scenes/faleConosco";
+import Footer from "@/scenes/footer";
 import { useEffect, useState } from "react";
 import { SelectedPage } from "@/shared/types";
 
@@ -33,6 +35,8 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <Canal setSelectedPage={setSelectedPage} />
       <Blog setSelectedPage={setSelectedPage} />
+      <FaleConosco setSelectedPage={setSelectedPage} />
+      <Footer />
     </div>
   );
 }

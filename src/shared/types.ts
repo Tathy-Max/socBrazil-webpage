@@ -3,11 +3,12 @@ export enum SelectedPage {
   Canais = "canais",
   Blog = "blog",
   Eventos = "eventos",
+  FaleConosco = "faleconosco",
 }
 export interface CanaisType {
   icon: JSX.Element;
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
 }
 export interface BlogType {
   name: string;
