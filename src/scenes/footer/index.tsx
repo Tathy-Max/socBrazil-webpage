@@ -1,29 +1,26 @@
-import Logo from "@/assets/LogoSocNav.png";
-import Youtube from "@/assets/youtube.png";
-import Linkedin from "@/assets/linkedin.png";
-import Telegram from "@/assets/telegram.png";
+import Logo from "@/assets/logoSocRT.png";
+import Youtube from "@/assets/youtubeW.png";
+import Linkedin from "@/assets/linkedinW.png";
+import Instagram from "@/assets/instagramW.png";
+import Telegram from "@/assets/telegramW.png";
+import Whatsapp from "@/assets/whatsappW.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-100 py-10">
+    <footer className="bg-purple-soc pt-4 pb-2">
       <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
         <div className="mt-16 basis-1/2 md:mt-0">
-          <img className="h-22 w-40" alt="logo" src={Logo} />
-          <p className="my-5">
-            Lorem vitae ut augue auctor faucibus eget eget ut libero. Elementum
-            purus et arcu massa dictum condimentum. Augue scelerisque iaculis
-            orci ut habitant laoreet. Iaculis tristique.
-          </p>
+          <img className="h-20 w-20" alt="logo" src={Logo} />
           <p>© SocBrazil All Rights Reserved.</p>
         </div>
-        <div className="mt-16 grid basis-1/4 grid-cols-3 place-items-center gap-4 md:mt-0">
+        <div className="mt-16 grid basis-2/4 grid-cols-5 place-items-center gap-4 md:mt-0">
           {/* <h4 className="font-bold">Links</h4> */}
           <a
             href="https://youtube.com/c/SOCBrazil"
             target="_blank"
             rel="noreferrer"
           >
-            <img className="h-10 w-10" src={Youtube} alt="logo youtube" />
+            <img className="" src={Youtube} alt="logo youtube" />
             <p className="my-1">YouTube</p>
           </a>
 
@@ -37,17 +34,29 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://youtube.com/c/SOCBrazil"
+            href="https://t.me/joinchat/GbuV5BMs5mN3jVCL6nAOjw"
             target="_blank"
             rel="noreferrer"
           >
             <img className="h-10 w-10" src={Telegram} alt="logo telegram" />
             <p>Telegram</p>
           </a>
-
-          {/* <p className="my-5">Massa orci senectus</p>
-          <p className="my-5">Et gravida id et etiam</p>
-          <p>Ullamcorper vivamus</p> */}
+          <a
+            href="https://www.instagram.com/socbrazil/?hl=pt"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="" src={Instagram} alt="logo telegram" />
+            <p>Instagram</p>
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=+12269980172"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="" src={Whatsapp} alt="logo telegram" />
+            <p>WhatsApp</p>
+          </a>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Fale Conosco</h4>

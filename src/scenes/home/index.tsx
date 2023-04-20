@@ -4,8 +4,8 @@ import ActionButton from "@/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 // import LogoNova from "@/assets/socLogoNew.png";
-import HomePageText from "@/assets/homePageText.png";
-import HomePageGraphic from "@/assets/socLogoNew.png";
+import HomePageText from "@/assets/homePageTextR.png";
+// import HomePageGraphic from "@/assets/socVitrine.jpg";
 import LogoDataSec from "@/assets/logoDataSec.png";
 import LogoSans from "@/assets/logoSans.png";
 import LogoSocCloud from "@/assets/logoSocCloud.png";
@@ -18,10 +18,13 @@ const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
 
   return (
-    <section id="home" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
+    <section
+      id="home"
+      className="gap-16 bg-home-image bg-fixed bg-top pt-32 md:h-full md:pb-0"
+    >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
-        className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
+        className="mx-auto w-5/6 items-center justify-start md:flex md:h-5/6"
         onViewportEnter={() => setSelectedPage(SelectedPage.Home)}
       >
         {/* MAIN HEADER */}
@@ -39,12 +42,16 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-cybertext">
-                <img alt="home-page-text" src={HomePageText} />
+              <div className="before:absolute before:-top-28 before:-left-20 before:z-[-1] md:before:content-communityText">
+                <img
+                  className="w-4/6"
+                  src={HomePageText}
+                  alt="home-page-text"
+                />
               </div>
             </div>
 
-            <p className="text-md mt-8">
+            <p className="text-md mt-8 mr-80">
               O SOC Brazil foi criado em Janeiro de 2019 com o objetivo de acima
               de tudo ajudar empresas e profissionais de Segurança da Informação
               a aumentarem a maturidade dos centros de operações de segurança da
@@ -80,19 +87,19 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
 
         {/* IMAGE */}
-        <div
+        {/* <div
           className="flex basis-3/5 justify-center md:z-10
                 md:ml-40 md:mt-16 md:justify-items-end"
         >
           <img alt="home-pageGraphic" src={HomePageGraphic} />
-        </div>
+        </div> */}
       </motion.div>
 
       {/* SPONSORS */}
       {isAboveMediumScreens && (
-        <div className="h-[150px] w-full bg-primary-100 py-10">
+        <div className=" w-full  py-10">
           <div className="mx-auto w-5/6">
-            <div className="flex w-3/5 items-center justify-between gap-8">
+            <div className="flex items-center justify-between">
               <img
                 className="h-16 w-16"
                 alt="datasec-sponsor"

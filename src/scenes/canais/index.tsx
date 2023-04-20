@@ -11,35 +11,65 @@ import CanaisPageGraphic from "@/assets/CanaisPageGraphic.png";
 import Canal from "./Canal";
 
 const canais: Array<CanaisType> = [
+  // {
+  //   title: "LinkedIn SOCBrazil",
+  //   icon: (
+  //     <iframe
+  //       src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/122682"
+  //       width="100%"
+  //       height="500"
+  //     ></iframe>
+  //   ),
+  // },
+  // {
+  //   title: "YouTube SOCBrazil",
+  //   icon: (
+  //     <iframe
+  //       src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/122894"
+  //       width="853"
+  //       height="600"
+  //       allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope;"
+  //       allowFullScreen
+  //       title="youTubeChannel"
+  //     ></iframe>
+  //   ),
+  // },
   {
-    title: "LinkedIn SOCBrazil",
+    title: "YouTube SOCBrazil",
     icon: (
       <iframe
-        src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/122682"
+        src="https://www.youtube.com/embed?listType=playlist&list=UUE1gEtmSM7N1301gqz_WSRA"
         width="100%"
-        height="500"
-      ></iframe>
-    ),
-  },
-  {
-    icon: (
-      <iframe
-        src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/122894"
-        width="853"
-        height="600"
+        height="100%"
         allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope;"
         allowFullScreen
         title="youTubeChannel"
       ></iframe>
     ),
-    title: "YouTube SOCBrazil",
   },
   {
+    title: "YouTube SOCBrazil",
     icon: (
       <iframe
-        src="https://widgets.sociablekit.com/youtube-playlists/iframe/122906"
+        src="https://www.youtube.com/embed?listType=playlist&list=UUE1gEtmSM7N1301gqz_WSRA&index=2"
         width="100%"
-        height="500"
+        height="100%"
+        allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope;"
+        allowFullScreen
+        title="youTubeChannel"
+      ></iframe>
+    ),
+  },
+  {
+    title: "YouTube SOCBrazil",
+    icon: (
+      <iframe
+        src="https://www.youtube.com/embed?listType=playlist&list=UUE1gEtmSM7N1301gqz_WSRA&index=3"
+        width="100%"
+        height="100%"
+        allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope;"
+        allowFullScreen
+        title="youTubeChannel"
       ></iframe>
     ),
   },
@@ -72,8 +102,11 @@ const Canais = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <HText>MORE THAN JUST A COMMUNITY</HText>
-          <p className="my-5 text-sm">
+          <HText>
+            MAIS DO QUE APENAS UMA{" "}
+            <span className="text-light-blue">COMUNIDADE</span>
+          </HText>
+          <p className="text-md my-5 text-purple-soc">
             O SOC Brazil possui uma metodologia própria que foi criada após
             diversos estudos entre metodologias de grandes empresas e pesquisas
             de campo com profissionais do segmento.
@@ -93,7 +126,6 @@ const Canais = ({ setSelectedPage }: Props) => {
               key={canais.title}
               title={canais.title}
               icon={canais.icon}
-              // description={canais.description}
               setSelectedPage={setSelectedPage}
             />
           ))}
@@ -102,6 +134,14 @@ const Canais = ({ setSelectedPage }: Props) => {
         {/* GRAPHICS AND DESCRIPTION */}
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
           {/* GRAPHIC */}
+          <div className="w-full rounded-md border-2 border-gray-100 px-2 py-4 text-center">
+            <iframe
+              src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/122682"
+              width="100%"
+              height="500"
+            ></iframe>
+            <h4 className="font-bold text-purple-soc">LinkedIn SOCBrazil</h4>
+          </div>
           <img
             className="mx-auto"
             alt="canais-page-graphic"
@@ -125,7 +165,7 @@ const Canais = ({ setSelectedPage }: Props) => {
                 >
                   <HText>
                     MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-primary-500">IN</span>
+                    <span className="text-purple-soc">IN</span>
                   </HText>
                 </motion.div>
               </div>
@@ -142,13 +182,13 @@ const Canais = ({ setSelectedPage }: Props) => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="my-5">
+              <p className="my-5 text-purple-soc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                 recusandae labore velit earum exercitationem dolore a ratione
                 illum distinctio temporibus deserunt similique, repudiandae quis
                 doloribus eligendi debitis minima amet molestias!
               </p>
-              <p className="mb-5">
+              <p className="mb-5 text-purple-soc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Dolores similique nam labore unde minima nihil consequatur, eos
                 facilis dolorum tempore. Inventore labore voluptatum tenetur

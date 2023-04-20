@@ -43,14 +43,9 @@ const FaleConosco = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-primary-500">FALE CONOSCO</span> TO GET INTO
+            <span className="text-purple-soc">FALE CONOSCO</span> TO GET INTO
             THE COMMUNITY
           </HText>
-          <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
-          </p>
         </motion.div>
 
         {/* FORM AND IMAGE */}
