@@ -10,6 +10,7 @@ module.exports = {
         "gray-text": "#ecedf8",
         "purple-soc": "#5271FF",
         "light-blue": "#61DBFB",
+        "yellow-soc": "#fec601",
 
         "gray-20": "#001A2C", //page's background-color
         "gray-50": "#EFE6E6",

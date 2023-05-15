@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      className="gap-16 bg-home-image bg-fixed bg-top pt-32 md:h-full md:pb-0"
+      className="gap-16 bg-home-image bg-fixed bg-center pt-36 md:h-full md:pb-0"
     >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
@@ -97,9 +97,9 @@ const Home = ({ setSelectedPage }: Props) => {
 
       {/* SPONSORS */}
       {isAboveMediumScreens && (
-        <div className=" w-full  py-10">
+        <div className=" w-full  py-6">
           <div className="mx-auto w-5/6">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-start gap-32">
               <img
                 className="h-16 w-16"
                 alt="datasec-sponsor"
