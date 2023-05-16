@@ -101,13 +101,13 @@ const Home = ({ setSelectedPage }: Props) => {
           <div className="mx-auto w-5/6">
             <div className="flex items-center justify-start gap-32">
               <img
-                className="h-16 w-16"
+                className="h-12 w-12"
                 alt="datasec-sponsor"
                 src={LogoDataSec}
               />
-              <img className="h-16 w-16" alt="sans-sponsor" src={LogoSans} />
+              <img className="h-12 w-12" alt="sans-sponsor" src={LogoSans} />
               <img
-                className="h-16 w-16"
+                className="h-12 w-12"
                 alt="soccloud-sponsor"
                 src={LogoSocCloud}
               />

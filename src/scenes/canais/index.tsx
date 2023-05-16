@@ -104,7 +104,7 @@ const Canais = ({ setSelectedPage }: Props) => {
         >
           <HText>
             MAIS DO QUE APENAS UMA{" "}
-            <span className="text-light-blue">COMUNIDADE</span>
+            <span className="text-purple-soc">COMUNIDADE</span>
           </HText>
           <p className="text-md my-5 text-purple-soc">
             O SOC Brazil possui uma metodologia própria que foi criada após
@@ -142,17 +142,17 @@ const Canais = ({ setSelectedPage }: Props) => {
             ></iframe>
             <h4 className="font-bold text-purple-soc">LinkedIn SOCBrazil</h4>
           </div>
-          <img
+          {/* <img
             className="mx-auto"
             alt="canais-page-graphic"
             src={CanaisPageGraphic}
-          />
+          /> */}
 
           {/* DESCRIPTION */}
-          <div>
+          <div className="w-2/3">
             {/* TITLE */}
-            <div className="relative">
-              <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+            <div className="relative ">
+              <div className=" before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -165,8 +165,13 @@ const Canais = ({ setSelectedPage }: Props) => {
                 >
                   <HText>
                     MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-purple-soc">IN</span>
+                    <span className="text-purple-soc">IN OUR EVENTS</span>
                   </HText>
+                  <img
+                    className="mx-auto"
+                    alt="canais-page-graphic"
+                    src={CanaisPageGraphic}
+                  />
                 </motion.div>
               </div>
             </div>
@@ -182,23 +187,23 @@ const Canais = ({ setSelectedPage }: Props) => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="my-5 text-purple-soc">
+              <p className="my-5 mx-auto text-center text-purple-soc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                 recusandae labore velit earum exercitationem dolore a ratione
                 illum distinctio temporibus deserunt similique, repudiandae quis
                 doloribus eligendi debitis minima amet molestias!
               </p>
-              <p className="mb-5 text-purple-soc">
+              {/* <p className="mb-5 text-purple-soc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Dolores similique nam labore unde minima nihil consequatur, eos
                 facilis dolorum tempore. Inventore labore voluptatum tenetur
                 veritatis maxime nostrum enim eius doloribus.
-              </p>
+              </p> */}
             </motion.div>
 
             {/* BUTTON */}
-            <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-sparkles">
+            <div className="relative mt-8">
+              <div className="before:absolute before:-bottom-20  before:z-[-1] ">
                 <ActionButton setSelectedPage={setSelectedPage}>
                   Join Now
                 </ActionButton>

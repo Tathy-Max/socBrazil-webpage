@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
-import FaleConoscoPageGraphic from "@/assets/image3.png";
+import FaleConoscoPageGraphic from "@/assets/faleConosco.jpg";
 import HText from "@/shared/HText";
 
 type Props = {
@@ -122,7 +122,7 @@ const FaleConosco = ({ setSelectedPage }: Props) => {
 
               <button
                 type="submit"
-                className="mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white"
+                className="font-md flex transform items-center justify-center rounded-md bg-light-blue px-5 py-2.5 font-semibold text-deep-blue transition-all duration-200 hover:scale-105 hover:bg-primary-500 hover:text-white"
               >
                 SUBMIT
               </button>
@@ -142,7 +142,7 @@ const FaleConosco = ({ setSelectedPage }: Props) => {
           >
             <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
               <img
-                className="w-full"
+                className="w-4/5 rounded-lg"
                 alt="fale-conosco-page-graphic"
                 src={FaleConoscoPageGraphic}
               />

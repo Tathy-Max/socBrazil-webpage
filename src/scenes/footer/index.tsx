@@ -20,7 +20,11 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="" src={Youtube} alt="logo youtube" />
+            <img
+              className="h-10 w-10 transition duration-500 hover:opacity-50"
+              src={Youtube}
+              alt="logo youtube "
+            />
             <p className="my-1">YouTube</p>
           </a>
 
@@ -29,8 +33,12 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="h-10 w-10" src={Linkedin} alt="logo linkedin" />
-            <p>LinkedIn</p>
+            <img
+              className="h-8 w-8 transition duration-500 hover:opacity-50"
+              src={Linkedin}
+              alt="logo linkedin"
+            />
+            <p className="my-1">LinkedIn</p>
           </a>
 
           <a
@@ -38,28 +46,45 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="h-10 w-10" src={Telegram} alt="logo telegram" />
-            <p>Telegram</p>
+            <img
+              className="h-8 w-8 transition duration-500 hover:opacity-50"
+              src={Telegram}
+              alt="logo telegram"
+            />
+            <p className="my-1">Telegram</p>
           </a>
           <a
             href="https://www.instagram.com/socbrazil/?hl=pt"
             target="_blank"
             rel="noreferrer"
           >
-            <img className="" src={Instagram} alt="logo telegram" />
-            <p>Instagram</p>
+            <img
+              className="transition duration-500 hover:opacity-50"
+              src={Instagram}
+              alt="logo telegram"
+            />
+            <p className="my-1">Instagram</p>
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=+12269980172"
             target="_blank"
             rel="noreferrer"
           >
-            <img className="" src={Whatsapp} alt="logo telegram" />
-            <p>WhatsApp</p>
+            <img
+              className="transition duration-500 hover:opacity-50"
+              src={Whatsapp}
+              alt="logo telegram"
+            />
+            <p
+              className="my-1 
+            "
+            >
+              WhatsApp
+            </p>
           </a>
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
-          <h4 className="font-bold">Fale Conosco</h4>
+          {/* <h4 className="font-bold">Fale Conosco</h4> */}
           <p className="my-5">contato@socbrazil.com</p>
           <p>(21)425-6825</p>
         </div>
