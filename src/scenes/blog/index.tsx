@@ -1,4 +1,4 @@
-import { SelectedPage, BlogType } from "@/shared/types";
+import { BlogType, SelectedPage } from "@/shared/types";
 import image1 from "@/assets/image1.png";
 // import image2 from "@/assets/image2.png";
 // import image3 from "@/assets/image3.png";
@@ -51,7 +51,7 @@ type Props = {
 
 const OurBlog = ({ setSelectedPage }: Props) => {
   return (
-    <section id="ourblog" className="w-full bg-deep-blue pt-20 pb-20">
+    <section id="blog" className="w-full bg-deep-blue pt-20 pb-20">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Blog)}>
         <motion.div
           className="mx-auto w-5/6"
