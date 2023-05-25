@@ -1,21 +1,12 @@
 import { BlogType, SelectedPage } from "@/shared/types";
-import image1 from "@/assets/image1.png";
-import image7 from "@/assets/image7.png";
+import image21 from "@/assets/image21.png";
 import image77 from "@/assets/image77.png";
 import image10 from "@/assets/image10.png";
 import image8 from "@/assets/image8.png";
-import image9 from "@/assets/image9.png";
 import image13 from "@/assets/image13.png";
 import image55 from "@/assets/image55.png";
-// import image2 from "@/assets/image2.png";
-// import image3 from "@/assets/image3.png";
-import image4 from "@/assets/image4.png";
-// import image5 from "@/assets/image5.png";
-// import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
-import HText from "@/shared/HText";
 import Blog from "./Blog";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const news: Array<BlogType> = [
   {
@@ -79,10 +70,8 @@ const OurBlog = ({ setSelectedPage }: Props) => {
               BLOG NEWS
             </h1>
             <p className="py-5 text-gray-text">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Uma seleção de posts, artigos e notícias com o que rolou de mais
+              interessante
             </p>
           </div>
         </motion.div>

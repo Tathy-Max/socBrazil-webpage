@@ -59,10 +59,15 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </div>
                 <div className={`${flexBetween} gap-8`}>
-                  {/* <p>Sign In</p> */}
-                  <ActionButton setSelectedPage={setSelectedPage}>
+                  <a
+                    className="font-md flex transform items-center justify-center rounded-md bg-light-blue px-5 py-2.5 font-semibold text-deep-blue transition-all duration-200 hover:scale-105 hover:bg-primary-500 hover:text-white"
+                    data-id="14790506"
+                    href="https://www.linkedin.com/company/socbrazil/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Inscreva-se
-                  </ActionButton>
+                  </a>
                 </div>
               </div>
             ) : (

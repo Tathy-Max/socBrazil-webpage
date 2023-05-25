@@ -1,13 +1,8 @@
 import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
 import { CanaisType, SelectedPage } from "@/shared/types";
-// import {
-//   HomeModernIcon,
-//   UserGroupIcon,
-//   AcademicCapIcon,
-// } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
-import CanaisPageGraphic from "@/assets/CanaisPageGraphic.png";
+import CanaisEvents from "@/assets/calendar.jpg";
 import Canal from "./Canal";
 
 const canais: Array<CanaisType> = [
@@ -107,9 +102,7 @@ const Canais = ({ setSelectedPage }: Props) => {
             <span className="text-purple-soc">COMUNIDADE</span>
           </HText>
           <p className="text-md my-5 text-purple-soc">
-            O SOC Brazil possui uma metodologia própria que foi criada após
-            diversos estudos entre metodologias de grandes empresas e pesquisas
-            de campo com profissionais do segmento.
+            Acompanhe nosso conteúdo exclusivo através de nossas redes
           </p>
         </motion.div>
 
@@ -164,13 +157,13 @@ const Canais = ({ setSelectedPage }: Props) => {
                   }}
                 >
                   <HText>
-                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                    <span className="text-purple-soc">IN OUR EVENTS</span>
+                    ACOMPANHE AQUI NOSSOS PRÓXIMOS{" "}
+                    <span className="text-purple-soc">EVENTOS</span>
                   </HText>
                   <img
-                    className="mx-auto"
-                    alt="canais-page-graphic"
-                    src={CanaisPageGraphic}
+                    className="mx-auto pt-4"
+                    alt="canais-events-graphic"
+                    src={CanaisEvents}
                   />
                 </motion.div>
               </div>
@@ -188,24 +181,16 @@ const Canais = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5 mx-auto text-center text-purple-soc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                recusandae labore velit earum exercitationem dolore a ratione
-                illum distinctio temporibus deserunt similique, repudiandae quis
-                doloribus eligendi debitis minima amet molestias!
+                Em breve estaremos divulgando mais um evento para a comunidade
+                SOCBRAZIL
               </p>
-              {/* <p className="mb-5 text-purple-soc">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolores similique nam labore unde minima nihil consequatur, eos
-                facilis dolorum tempore. Inventore labore voluptatum tenetur
-                veritatis maxime nostrum enim eius doloribus.
-              </p> */}
             </motion.div>
 
             {/* BUTTON */}
             <div className="relative mt-8">
               <div className="before:absolute before:-bottom-20  before:z-[-1] ">
                 <ActionButton setSelectedPage={setSelectedPage}>
-                  Join Now
+                  Inscreva-se para participar
                 </ActionButton>
               </div>
             </div>

@@ -73,15 +73,21 @@ const Home = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <ActionButton setSelectedPage={setSelectedPage}>
-              Join Now
-            </ActionButton>
+            <a
+              className="font-md flex transform items-center justify-center rounded-md bg-light-blue px-5 py-2.5 font-semibold text-deep-blue transition-all duration-200 hover:scale-105 hover:bg-primary-500 hover:text-white"
+              data-id=""
+              href="https://www.linkedin.com/company/socbrazil/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Participe
+            </a>
             <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
               onClick={() => setSelectedPage(SelectedPage.Blog)}
               href={`#${SelectedPage.Blog}`}
             >
-              <p>Saiba Mais</p>
+              {/* <p>Saiba Mais</p> */}
             </AnchorLink>
           </motion.div>
         </div>
@@ -101,13 +107,13 @@ const Home = ({ setSelectedPage }: Props) => {
           <div className="mx-auto w-5/6">
             <div className="flex items-center justify-start gap-32">
               <img
-                className="h-12 w-12"
+                className="h-12 w-16"
                 alt="datasec-sponsor"
                 src={LogoDataSec}
               />
-              <img className="h-12 w-12" alt="sans-sponsor" src={LogoSans} />
+              <img className="h-10 w-12" alt="sans-sponsor" src={LogoSans} />
               <img
-                className="h-12 w-12"
+                className="h-12 w-14"
                 alt="soccloud-sponsor"
                 src={LogoSocCloud}
               />

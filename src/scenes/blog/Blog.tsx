@@ -16,8 +16,8 @@ const Blog = ({ name, link, description, image }: Props) => {
       <div className={overlayStyles}>
         <a href={link} target="_blank" rel="noreferrer">
           <p className="text-2xl">{name}</p>
+          <p className="mt-5">{description}</p>
         </a>
-        <p className="mt-5">{description}</p>
       </div>
       <img alt={`${image}`} src={image} />
     </li>
