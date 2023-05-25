@@ -12,6 +12,7 @@ export interface CanaisType {
 }
 export interface BlogType {
   name: string;
+  link: string;
   description?: string;
   image: string;
 }

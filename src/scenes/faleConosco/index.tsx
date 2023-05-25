@@ -64,7 +64,7 @@ const FaleConosco = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/contato@socbrazil.com"
+              action="https://formsubmit.co/lbertti@socbrazil.com"
               method="POST"
             >
               <input

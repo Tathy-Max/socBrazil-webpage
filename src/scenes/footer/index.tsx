@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
         <div className="mt-16 basis-1/4 md:mt-0">
           {/* <h4 className="font-bold">Fale Conosco</h4> */}
-          <p className="my-5">contato@socbrazil.com</p>
+          <p className="my-5">lbertti@socbrazil.com</p>
           <p>(21)425-6825</p>
         </div>
       </div>
