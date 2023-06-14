@@ -18,7 +18,7 @@ const Canal = ({ icon, title, setSelectedPage }: Props) => {
   return (
     <motion.div
       variants={childVariant}
-      className="w-1/3 rounded-md border-2 border-gray-100 px-2 py-4 text-center"
+      className="rounded-md border-2 border-gray-100 px-2 py-4 text-center md:w-1/3"
     >
       <div className="relative my-1 flex h-80 w-full justify-center ">
         {icon}

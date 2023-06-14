@@ -5,7 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 // import LogoNova from "@/assets/socLogoNew.png";
 import HomePageText from "@/assets/homePageTextR.png";
-// import HomePageGraphic from "@/assets/socVitrine.jpg";
+// import HomePageBackground from "@/assets/bgMobile1.png";
 import LogoDataSec from "@/assets/logoDataSec.png";
 import LogoSans from "@/assets/logoSans.png";
 import LogoSocCloud from "@/assets/logoSocCloud.png";
@@ -51,7 +51,7 @@ const Home = ({ setSelectedPage }: Props) => {
               </div>
             </div>
 
-            <p className="text-md mt-4 mr-8 md:mr-20">
+            <p className="text-md mt-4 mr-8  md:mr-20">
               O SOC Brazil foi criado em Janeiro de 2019 com o objetivo de acima
               de tudo ajudar empresas e profissionais de Segurança da Informação
               a aumentarem a maturidade dos centros de operações de segurança da
@@ -94,10 +94,10 @@ const Home = ({ setSelectedPage }: Props) => {
 
         {/* IMAGE */}
         {/* <div
-          className="flex basis-3/5 justify-center md:z-10
-                md:ml-40 md:mt-16 md:justify-items-end"
+          className=" mx-auto sm:z-10  sm:pb-24
+                  md:hidden"
         >
-          <img alt="home-pageGraphic" src={HomePageGraphic} />
+          <img alt="home-pageBackground" src={HomePageBackground} />
         </div> */}
       </motion.div>
 
