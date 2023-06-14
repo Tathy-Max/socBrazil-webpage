@@ -13,7 +13,7 @@ const Footer = () => {
           <img className="h-20 w-20" alt="logo" src={Logo} />
           <p>© SocBrazil All Rights Reserved.</p>
         </div>
-        <div className="mt-16 grid basis-2/4 grid-cols-5 place-items-center gap-4 md:mt-0">
+        <div className="mt-10 grid basis-2/4 grid-cols-5 grid-rows-2 place-items-center text-sm  md:mt-0">
           {/* <h4 className="font-bold">Links</h4> */}
           <a
             href="https://youtube.com/c/SOCBrazil"
@@ -25,7 +25,6 @@ const Footer = () => {
               src={Youtube}
               alt="logo youtube "
             />
-            <p className="my-1">YouTube</p>
           </a>
 
           <a
@@ -38,7 +37,6 @@ const Footer = () => {
               src={Linkedin}
               alt="logo linkedin"
             />
-            <p className="my-1">LinkedIn</p>
           </a>
 
           <a
@@ -51,7 +49,6 @@ const Footer = () => {
               src={Telegram}
               alt="logo telegram"
             />
-            <p className="my-1">Telegram</p>
           </a>
           <a
             href="https://www.instagram.com/socbrazil/?hl=pt"
@@ -63,7 +60,6 @@ const Footer = () => {
               src={Instagram}
               alt="logo telegram"
             />
-            <p className="my-1">Instagram</p>
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=+12269980172"
@@ -75,16 +71,15 @@ const Footer = () => {
               src={Whatsapp}
               alt="logo telegram"
             />
-            <p
-              className="my-1 
-            "
-            >
-              WhatsApp
-            </p>
           </a>
+          <p>YouTube</p>
+          <p>LinkedIn</p>
+          <p>Telegram</p>
+          <p>Instagram</p>
+          <p>WhatsApp</p>
         </div>
-        <div className="mt-16 basis-1/4 md:mt-0">
-          {/* <h4 className="font-bold">Fale Conosco</h4> */}
+        <div className="mt-10 basis-1/4 md:mt-0">
+          <h4 className="font-bold">Fale Conosco</h4>
           <p className="my-5">lbertti@socbrazil.com</p>
           {/* <p>(21)425-6825</p> */}
         </div>

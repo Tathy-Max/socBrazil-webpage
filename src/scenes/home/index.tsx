@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      className="gap-16 bg-home-image bg-fixed bg-center pt-36 md:h-full md:pb-0"
+      className="gap-16 bg-fixed bg-center pt-36 md:h-full md:bg-home-image md:pb-0"
     >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
@@ -51,7 +51,7 @@ const Home = ({ setSelectedPage }: Props) => {
               </div>
             </div>
 
-            <p className="text-md mt-8 mr-80">
+            <p className="text-md mt-4 mr-8 md:mr-20">
               O SOC Brazil foi criado em Janeiro de 2019 com o objetivo de acima
               de tudo ajudar empresas e profissionais de Segurança da Informação
               a aumentarem a maturidade dos centros de operações de segurança da
@@ -84,10 +84,10 @@ const Home = ({ setSelectedPage }: Props) => {
             </a>
             <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-              onClick={() => setSelectedPage(SelectedPage.Blog)}
+              onClick={() => setSelectedPage(SelectedPage.FaleConosco)}
               href={`#${SelectedPage.Blog}`}
             >
-              {/* <p>Saiba Mais</p> */}
+              <p>Saiba Mais</p>
             </AnchorLink>
           </motion.div>
         </div>

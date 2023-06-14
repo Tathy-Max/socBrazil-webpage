@@ -83,7 +83,7 @@ type Props = {
 
 const Canais = ({ setSelectedPage }: Props) => {
   return (
-    <section id="canais" className="mx-auto min-h-full w-5/6 py-20">
+    <section id="canais" className="mx-auto min-h-full w-5/6 pt-60 md:py-20">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Canais)}>
         {/* HEADER */}
         <motion.div
@@ -161,7 +161,7 @@ const Canais = ({ setSelectedPage }: Props) => {
                     <span className="text-purple-soc">EVENTOS</span>
                   </HText>
                   <img
-                    className="mx-auto pt-4"
+                    className="mx-auto  pt-4"
                     alt="canais-events-graphic"
                     src={CanaisEvents}
                   />

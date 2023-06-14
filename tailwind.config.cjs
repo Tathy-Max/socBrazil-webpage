@@ -4,26 +4,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // "gray-20": "#F8F4EB",
         "deep-blue": "#001d3d",
-        // "deep-blue": "#010026",
         "gray-text": "#ecedf8",
         "purple-soc": "#5271FF",
         "light-blue": "#61DBFB",
         "yellow-soc": "#fec601",
 
         "gray-20": "#001A2C", //page's background-color
-        "gray-50": "#EFE6E6",
-        "gray-100": "#DFCCCC",
+        // "gray-50": "#EFE6E6",
+        // "gray-100": "#DFCCCC",
         "gray-500": "#576AEC", //default page's text color
 
-        // "gray-500 or primary-100": "#004385",
-        // "gray-500": "#3395FF",
-        // "primary-100": "#001d3d",
         "primary-100": "#012a4a", //mobile menu toggled color and Navbar
         "primary-300": "#2bd9fe", //hover color
         "primary-500": "#0197f6", // "Home" link color + button hover color
-        "secondary-400": "#FFCD58",
+        // "secondary-400": "#FFCD58",
         "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({
@@ -44,9 +39,8 @@ module.exports = {
         cybertext: "url('./assets/cybertext.png')",
         communityText: "url('./assets/communityTextR.png')",
         abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
-        // connection: "url(./assets/Connection.png)",
+        // sparkles: "url('./assets/Sparkles.png')",
+        // circles: "url('./assets/Circles.png')",
       },
     },
     screens: {

@@ -43,8 +43,7 @@ const FaleConosco = ({ setSelectedPage }: Props) => {
           }}
         >
           <HText>
-            <span className="text-purple-soc">FALE CONOSCO</span> TO GET INTO
-            THE COMMUNITY
+            <span className="text-purple-soc">FALE CONOSCO</span> PARTICIPE
           </HText>
         </motion.div>
 
