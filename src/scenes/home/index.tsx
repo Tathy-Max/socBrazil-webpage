@@ -17,7 +17,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      className="gap-16 bg-fixed bg-center pt-36 md:h-full md:bg-[url('../../src/assets/socVitrine3.jpg')] md:pb-0"
+      className="gap-16 bg-fixed bg-center pt-36 md:h-full md:bg-home-image md:pb-0"
     >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
