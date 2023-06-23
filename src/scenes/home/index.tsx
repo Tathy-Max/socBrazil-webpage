@@ -17,7 +17,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      className="gap-16 bg-fixed bg-center pt-36 md:h-full md:bg-home-image md:pb-0"
+      className="md:bg-md:bg-[url('https://soc-brazil-webpage.vercel.app/socLogo/socVitrine3.jpg')] gap-16 bg-fixed bg-center pt-36 md:h-full md:pb-0"
     >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
