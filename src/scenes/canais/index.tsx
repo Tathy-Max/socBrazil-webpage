@@ -60,7 +60,7 @@ type Props = {
 
 const Canais = ({ setSelectedPage }: Props) => {
   return (
-    <section id="canais" className="mx-auto  w-5/6 pt-72 md:py-20">
+    <section id="canais" className="mx-auto  w-5/6 pt-64 md:py-20">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Canais)}>
         {/* HEADER */}
         <motion.div

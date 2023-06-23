@@ -21,9 +21,7 @@ module.exports = {
         "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({
-        "gradient-blue": "linear-gradient(90deg, #041A2F 0%, #062039 100%)",
         "home-image": "url('/src/assets/socVitrine3.jpg')",
-        // "mobile-home": "url('./assets/socLogoNew.png')",
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
