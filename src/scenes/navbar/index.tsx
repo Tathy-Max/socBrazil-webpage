@@ -4,7 +4,6 @@ import Logo from "@/assets/socLogoN.png";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
 
 type Props = {
   isTopOfPage: boolean;
@@ -104,11 +103,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            {/* <Link
-              page="Eventos"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            /> */}
             <Link
               page="Fale Conosco"
               selectedPage={selectedPage}
