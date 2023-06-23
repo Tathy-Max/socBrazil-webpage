@@ -14,7 +14,6 @@ const Footer = () => {
           <p>© SocBrazil All Rights Reserved.</p>
         </div>
         <div className="mt-10 grid basis-2/4 grid-cols-5 grid-rows-2 place-items-center text-sm  md:mt-0">
-          {/* <h4 className="font-bold">Links</h4> */}
           <a
             href="https://youtube.com/c/SOCBrazil"
             target="_blank"
@@ -81,7 +80,6 @@ const Footer = () => {
         <div className="mt-10 basis-1/4 md:mt-0">
           <h4 className="font-bold">Fale Conosco</h4>
           <p className="my-5">lbertti@socbrazil.com</p>
-          {/* <p>(21)425-6825</p> */}
         </div>
       </div>
     </footer>
