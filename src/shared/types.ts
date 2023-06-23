@@ -8,7 +8,6 @@ export enum SelectedPage {
 export interface CanaisType {
   title?: string;
   icon: JSX.Element;
-  // description?: string;
 }
 export interface BlogType {
   name: string;
