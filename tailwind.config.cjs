@@ -20,7 +20,7 @@ module.exports = {
         "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({
-        "home-image": "url(../../public/socLogo/socVitrine3.jpg)",
+        "home-image": "url('./public/socLogo/socVitrine3.jpg')",
         // "mobile-home": "url('./assets/socLogoNew.png')",
       }),
       fontFamily: {
