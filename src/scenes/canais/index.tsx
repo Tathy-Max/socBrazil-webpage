@@ -6,29 +6,6 @@ import CanaisEvents from "@/assets/calendar.jpg";
 import Canal from "./Canal";
 
 const canais: Array<CanaisType> = [
-  // {
-  //   title: "LinkedIn SOCBrazil",
-  //   icon: (
-  //     <iframe
-  //       src="https://widgets.sociablekit.com/linkedin-page-posts/iframe/122682"
-  //       width="100%"
-  //       height="500"
-  //     ></iframe>
-  //   ),
-  // },
-  // {
-  //   title: "YouTube SOCBrazil",
-  //   icon: (
-  //     <iframe
-  //       src="https://widgets.sociablekit.com/youtube-channel-videos/iframe/122894"
-  //       width="853"
-  //       height="600"
-  //       allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope;"
-  //       allowFullScreen
-  //       title="youTubeChannel"
-  //     ></iframe>
-  //   ),
-  // },
   {
     title: "YouTube SOCBrazil",
     icon: (
@@ -135,11 +112,6 @@ const Canais = ({ setSelectedPage }: Props) => {
             ></iframe>
             <h4 className="font-bold text-purple-soc">LinkedIn SOCBrazil</h4>
           </div>
-          {/* <img
-            className="mx-auto"
-            alt="canais-page-graphic"
-            src={CanaisPageGraphic}
-          /> */}
 
           {/* DESCRIPTION */}
           <div className="w-2/3">

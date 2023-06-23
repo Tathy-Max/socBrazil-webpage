@@ -1,11 +1,8 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { SelectedPage } from "@/shared/types";
-import ActionButton from "@/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
-// import LogoNova from "@/assets/socLogoNew.png";
 import HomePageText from "@/assets/homePageTextR.png";
-import HomePageBackground from "@/assets/bgMobile.png";
 import LogoDataSec from "@/assets/logoDataSec.png";
 import LogoSans from "@/assets/logoSans.png";
 import LogoSocCloud from "@/assets/logoSocCloud.png";
@@ -85,9 +82,9 @@ const Home = ({ setSelectedPage }: Props) => {
             <AnchorLink
               className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
               onClick={() => setSelectedPage(SelectedPage.FaleConosco)}
-              href={`#${SelectedPage.Blog}`}
+              href={`#${SelectedPage.FaleConosco}`}
             >
-              <p>Saiba Mais</p>
+              <p>Fale Conosco</p>
             </AnchorLink>
           </motion.div>
         </div>
