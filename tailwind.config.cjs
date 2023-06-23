@@ -21,13 +21,7 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         "home-image": "url(../../src/assets/socVitrine3.jpg)",
-        "gradient-blueyellowred":
-          "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
-        "gradient-yellowred":
-          "linear-gradient(90deg, #FC9572 0%, #AD43E7 50%, #E2D45C 100%)",
-        "gradient-bluegreen":
-          "linear-gradient(90deg, #00171F 0%, #003459 50%, #007EA7 100%)",
-        "mobile-home": "url('./assets/socLogoNew.png')",
+        // "mobile-home": "url('./assets/socLogoNew.png')",
       }),
       fontFamily: {
         dmsans: ["DM Sans", "sans-serif"],
@@ -37,8 +31,6 @@ module.exports = {
         cybertext: "url('./assets/cybertext.png')",
         communityText: "url('./assets/communityTextR.png')",
         abstractwaves: "url('./assets/AbstractWaves.png')",
-        // sparkles: "url('./assets/Sparkles.png')",
-        // circles: "url('./assets/Circles.png')",
       },
     },
     screens: {
