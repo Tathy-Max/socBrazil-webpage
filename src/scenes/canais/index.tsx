@@ -20,7 +20,7 @@ const canais: Array<CanaisType> = [
     ),
   },
   {
-    title: "Brazil",
+    title: "YouTube SOCBrazil",
     icon: (
       <iframe
         src="https://www.youtube.com/embed?listType=playlist&list=UUE1gEtmSM7N1301gqz_WSRA&index=2"
