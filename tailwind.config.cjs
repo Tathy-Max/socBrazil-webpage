@@ -11,14 +11,12 @@ module.exports = {
         "yellow-soc": "#fec601",
 
         "gray-20": "#001A2C", //page's background-color
-        // "gray-50": "#EFE6E6",
-        // "gray-100": "#DFCCCC",
+        "gray-100": "#DFCCCC",
         "gray-500": "#576AEC", //default page's text color
 
         "primary-100": "#012a4a", //mobile menu toggled color and Navbar
         "primary-300": "#2bd9fe", //hover color
         "primary-500": "#0197f6", // "Home" link color + button hover color
-        // "secondary-400": "#FFCD58",
         "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({

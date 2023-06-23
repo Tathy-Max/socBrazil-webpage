@@ -83,7 +83,7 @@ type Props = {
 
 const Canais = ({ setSelectedPage }: Props) => {
   return (
-    <section id="canais" className="mx-auto min-h-full w-5/6 pt-60 md:py-20">
+    <section id="canais" className="mx-auto  w-5/6 pt-60 md:py-20">
       <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Canais)}>
         {/* HEADER */}
         <motion.div
@@ -145,7 +145,7 @@ const Canais = ({ setSelectedPage }: Props) => {
           <div className="w-2/3">
             {/* TITLE */}
             <div className="relative ">
-              <div className=" before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+              <div className=" before:absolute before:-top-20 before:-left-20  md:before:z-[1] md:before:content-abstractwaves ">
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
