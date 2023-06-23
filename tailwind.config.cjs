@@ -9,6 +9,7 @@ module.exports = {
         "purple-soc": "#5271FF",
         "light-blue": "#61DBFB",
         "yellow-soc": "#fec601",
+        "blue-logo": "#041D33",
 
         "gray-20": "#001A2C", //page's background-color
         "gray-100": "#DFCCCC",
@@ -20,8 +21,8 @@ module.exports = {
         "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({
-        "home-image":
-          "url('https://soc-brazil-webpage.vercel.app/socLogo/socVitrine3.jpg')",
+        "gradient-blue": "linear-gradient(90deg, #041A2F 0%, #062039 100%)",
+        "home-image": "url('/src/assets/socVitrine3.jpg')",
         // "mobile-home": "url('./assets/socLogoNew.png')",
       }),
       fontFamily: {

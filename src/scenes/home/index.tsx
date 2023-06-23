@@ -7,6 +7,8 @@ import LogoDataSec from "@/assets/logoDataSec.png";
 import LogoSans from "@/assets/logoSans.png";
 import LogoSocCloud from "@/assets/logoSocCloud.png";
 
+import HomePageGraphic from "@/assets/logoVitrineT.png";
+
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
 };
@@ -17,7 +19,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      className="md:bg-md:bg-home-image gap-16 bg-fixed bg-center pt-36 md:h-full md:pb-0"
+      className="gap-16 bg-fixed bg-center pt-36 md:h-full md:bg-home-image md:pb-0"
     >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
@@ -90,16 +92,12 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
 
         {/* IMAGE */}
-        {/* <div
-          className="flex basis-full justify-center md:z-10
-              md:hidden"
+        <div
+          className="flex basis-3/5 justify-center justify-items-end pt-2
+              md:z-10 md:ml-40 md:mt-16 md:hidden"
         >
-          <img
-            alt="home-pageBackground"
-            src={HomePageBackground}
-            className="h-full w-full"
-          />
-        </div> */}
+          <img alt="home-pageGraphic" src={HomePageGraphic} />
+        </div>
       </motion.div>
 
       {/* SPONSORS */}
