@@ -20,7 +20,8 @@ module.exports = {
         "secondary-500": "#11b5e4", //button color
       },
       backgroundImage: (theme) => ({
-        "home-image": "url('./socLogo/socVitrine3.jpg')",
+        "home-image":
+          "url('https://soc-brazil-webpage.vercel.app/socLogo/socVitrine3.jpg')",
         // "mobile-home": "url('./assets/socLogoNew.png')",
       }),
       fontFamily: {
