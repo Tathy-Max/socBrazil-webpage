@@ -19,7 +19,7 @@ const Home = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="home"
-      className="gap-16 bg-fixed bg-center pt-36 md:h-full md:bg-home-image md:pb-0"
+      className="gap-16 bg-fixed bg-center py-16 md:h-full md:bg-home-image md:pt-36 md:pb-0"
     >
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
@@ -92,7 +92,7 @@ const Home = ({ setSelectedPage }: Props) => {
         </div>
 
         {/* IMAGE */}
-        <div className="mt-2 flex basis-3/5 justify-center md:hidden ">
+        <div className="mt-3 flex basis-3/5 justify-center md:hidden ">
           <img alt="home-pageGraphic" src={HomePageGraphic} />
         </div>
       </motion.div>
